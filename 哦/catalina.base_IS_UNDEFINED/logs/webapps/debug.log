@@ -1,0 +1,107 @@
+2018-08-01 14:19:27.158 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,creat_time,last_edit_time) VALUES (#(username),#(password),#(personInfo.userId),#(createTime),#(lastEditTime)) 
+2018-08-01 14:19:27.273 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: 
+2018-08-01 14:20:06.536 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id, area_name, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2018-08-01 14:20:06.604 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2018-08-01 14:20:06.642 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - <==      Total: 2
+2018-08-01 14:21:11.390 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (#(username),#(password),#(personInfo.userId),#(createTime),#(lastEditTime)) 
+2018-08-01 14:21:11.488 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: 
+2018-08-01 14:46:36.865 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 14:50:34.536 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 14:57:09.052 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 14:58:13.429 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 14:58:13.592 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername(String), testPassword(String), 2(Long), 2018-08-01 14:58:12.909(Timestamp), null
+2018-08-01 14:58:13.622 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2018-08-01 15:01:16.463 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 15:01:16.539 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername(String), testPassword(String), 2(Long), 2018-08-01 15:01:15.955(Timestamp), null
+2018-08-01 15:02:40.789 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,#{lastEditTime)) 
+2018-08-01 15:02:40.956 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername(String), testPassword1(String), 2(Long), 2018-08-01 15:02:39.912(Timestamp)
+2018-08-01 15:06:53.272 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 15:06:53.388 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername(String), testPassword1(String), 2(Long), 2018-08-01 15:06:52.418(Timestamp), null
+2018-08-01 15:07:25.373 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 15:07:25.543 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername(String), testPassword1(String), 1(Long), 2018-08-01 15:07:24.647(Timestamp), null
+2018-08-01 15:10:05.353 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 15:10:05.477 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername(String), testPassword1(String), 1(Long), 2018-08-01 15:10:04.781(Timestamp), null
+2018-08-01 15:18:49.409 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 15:18:49.596 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername(String), testPassword1(String), 1(Long), 2018-08-01 15:18:48.301(Timestamp), null
+2018-08-01 15:47:37.509 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 15:47:37.619 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername(String), testPassword1(String), 1(Long), 2018-08-01 15:47:36.694(Timestamp), null
+2018-08-01 15:52:12.868 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 15:52:12.967 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername1(String), testPassword(String), 1(Long), 2018-08-01 15:52:12.159(Timestamp), null
+2018-08-01 15:52:12.971 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2018-08-01 15:55:28.081 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 15:55:28.219 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername2(String), testPassword(String), 3(Long), 2018-08-01 15:55:26.861(Timestamp), null
+2018-08-01 15:55:28.224 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2018-08-01 16:01:28.039 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 16:01:28.134 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testUsername2(String), testPassword(String), 3(Long), 2018-08-01 16:01:27.431(Timestamp), null
+2018-08-01 16:01:28.343 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.username=? AND l.password=? 
+2018-08-01 16:01:28.344 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testUsername2(String), testPassword(String)
+2018-08-01 16:01:28.385 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2018-08-01 16:02:22.856 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.username=? AND l.password=? 
+2018-08-01 16:02:23.017 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testUsername2(String), testPassword(String)
+2018-08-01 16:02:23.086 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2018-08-01 16:03:09.451 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.username=? AND l.password=? 
+2018-08-01 16:03:09.511 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testUsername2(String), testPassword(String)
+2018-08-01 16:03:09.531 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2018-08-01 16:06:18.776 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.username=? AND l.password=? 
+2018-08-01 16:06:18.863 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testUsername2(String), testPassword(String)
+2018-08-01 16:06:18.889 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2018-08-01 16:07:35.331 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.username=? AND l.password=? 
+2018-08-01 16:07:35.409 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testUsername2(String), testPassword(String)
+2018-08-01 16:07:35.432 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2018-08-01 16:18:14.491 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.user_id=? 
+2018-08-01 16:18:14.627 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 3(Long)
+2018-08-01 16:18:14.681 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2018-08-01 16:23:16.013 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=? last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 16:23:16.089 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 123(String), 2018-08-01 16:23:15.236(Timestamp), 3(Long), testUsername2(String), testPassword(String)
+2018-08-01 16:24:24.257 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=? last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 16:24:24.316 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 123(String), 2018-08-01 16:24:23.789(Timestamp), 3(Long), testUsername2(String), testPassword(String)
+2018-08-01 16:28:39.594 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: UPDATE tb_local_auth SET password=? last_edit_time=? WHERE user_id=? AND username=? AND password=? 
+2018-08-01 16:28:39.793 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 123(String), 2018-08-01 16:28:38.742(Timestamp), 3(Long), testUsername2(String), testPassword(String)
+2018-08-01 16:33:40.099 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 16:33:40.171 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 123(String), 2018-08-01 16:33:39.51(Timestamp), 3(Long), testUsername2(String), testPassword(String)
+2018-08-01 16:33:40.185 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2018-08-01 16:33:40.192 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.user_id=? 
+2018-08-01 16:33:40.193 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 3(Long)
+2018-08-01 16:33:40.218 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2018-08-01 16:37:45.614 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 16:37:45.730 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 123(String), 2018-08-01 16:37:44.854(Timestamp), 3(Long), testUsername2(String), testPassword(String)
+2018-08-01 16:37:45.738 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2018-08-01 16:39:02.135 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 16:39:02.209 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 123(String), 2018-08-01 16:39:01.589(Timestamp), 2(Long), testUsername1(String), testPassword(String)
+2018-08-01 16:39:02.210 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2018-08-01 16:39:45.513 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 16:39:45.706 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 123(String), 2018-08-01 16:39:44.709(Timestamp), 2(Long), testUsername1(String), testPassword(String)
+2018-08-01 16:39:45.709 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2018-08-01 16:40:15.298 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 16:40:15.352 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 4565(String), 2018-08-01 16:40:14.886(Timestamp), 2(Long), testUsername1(String), testPassword(String)
+2018-08-01 16:40:15.359 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2018-08-01 16:40:35.380 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 16:40:35.512 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 4565(String), 2018-08-01 16:40:34.478(Timestamp), 1(Long), testUsername1(String), testPassword(String)
+2018-08-01 16:40:35.515 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2018-08-01 16:40:35.522 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.user_id=? 
+2018-08-01 16:40:35.523 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 3(Long)
+2018-08-01 16:40:35.562 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2018-08-01 16:40:50.946 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 16:40:51.056 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 4565(String), 2018-08-01 16:40:50.359(Timestamp), 1(Long), testUsername1(String), testPassword(String)
+2018-08-01 16:40:51.059 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2018-08-01 22:07:27.229 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.user_id=? 
+2018-08-01 22:07:27.308 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2018-08-01 22:07:27.350 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2018-08-01 22:08:28.531 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.user_id=? 
+2018-08-01 22:08:28.612 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 6(Long)
+2018-08-01 22:08:28.660 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2018-08-01 22:08:28.679 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-08-01 22:08:28.695 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: 123(String), y52q99ylbq6ql52l55qe2b0b66ss6e05(String), 6(Long), 2018-08-01 22:08:28.674(Timestamp), 2018-08-01 22:08:28.674(Timestamp)
+2018-08-01 22:08:28.706 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2018-08-01 22:08:28.721 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.user_id=? 
+2018-08-01 22:08:28.722 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 6(Long)
+2018-08-01 22:08:28.732 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2018-08-01 22:25:16.611 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 22:25:16.675 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 555elq65be9q529lq62l52095s562l25(String), 2018-08-01 22:25:16.453(Timestamp), 6(Long), 123(String), y52q99ylbq6ql52l55qe2b0b66ss6e05(String)
+2018-08-01 22:25:16.681 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2018-08-01 22:25:16.694 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.profile_img, p.email, p.gender, p.enable_status, p.user_type, p.create_time, p.last_edit_time FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id=p.user_id WHERE l.username=? AND l.password=? 
+2018-08-01 22:25:16.695 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: 123(String), 555elq65be9q529lq62l52095s562l25(String)
+2018-08-01 22:25:16.732 [main] DEBUG c.i.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2018-08-01 22:25:34.564 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2018-08-01 22:25:34.609 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 555elq65be9q529lq62l52095s562l25(String), 2018-08-01 22:25:34.415(Timestamp), 6(Long), 123(String), y52q99ylbq6ql52l55qe2b0b66ss6e05(String)
+2018-08-01 22:25:34.611 [main] DEBUG com.imooc.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0

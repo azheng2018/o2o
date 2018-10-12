@@ -1,0 +1,42 @@
+2018-07-31 16:58:17.756 [main] ERROR com.imooc.o2o.service1.impl.WechatAuthServiceImpl - org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' cannot be null
+### The error may involve com.imooc.o2o.dao.WechatAuthDao.insertWechatAuth-Inline
+### The error occurred while setting parameters
+### SQL: INSERT   INTO   tb_wechat_auth(user_id,open_id,create_time)   VALUES   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' cannot be null
+; SQL []; Column 'user_id' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' cannot be null
+2018-07-31 16:59:47.902 [main] ERROR com.imooc.o2o.service1.impl.WechatAuthServiceImpl - org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' cannot be null
+### The error may involve com.imooc.o2o.dao.WechatAuthDao.insertWechatAuth-Inline
+### The error occurred while setting parameters
+### SQL: INSERT   INTO   tb_wechat_auth(user_id,open_id,create_time)   VALUES   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' cannot be null
+; SQL []; Column 'user_id' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_id' cannot be null
+2018-07-31 17:02:48.053 [main] ERROR com.imooc.o2o.service1.impl.WechatAuthServiceImpl - insertPersonInfo error:org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_type' cannot be null
+### The error may involve com.imooc.o2o.dao.PersonInfoDao.insertPersonInfo-Inline
+### The error occurred while setting parameters
+### SQL: INSERT   INTO   tb_person_info(name,gender,email,profile_img,user_type,   create_time,last_edit_time,enable_status)   VALUES   (?,?,?,?,   ?,?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_type' cannot be null
+; SQL []; Column 'user_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_type' cannot be null
+2018-07-31 17:02:48.054 [main] ERROR com.imooc.o2o.service1.impl.WechatAuthServiceImpl - insertWechatAuth error:com.imooc.o2o.exceptions.WechatAuthOperationException: insertPersonInfo error: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_type' cannot be null
+### The error may involve com.imooc.o2o.dao.PersonInfoDao.insertPersonInfo-Inline
+### The error occurred while setting parameters
+### SQL: INSERT   INTO   tb_person_info(name,gender,email,profile_img,user_type,   create_time,last_edit_time,enable_status)   VALUES   (?,?,?,?,   ?,?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_type' cannot be null
+; SQL []; Column 'user_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'user_type' cannot be null
+2018-07-31 17:05:13.201 [main] ERROR com.imooc.o2o.service1.impl.WechatAuthServiceImpl - insertWechatAuth error:org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'abcdefg' for key 'open_id'
+### The error may involve com.imooc.o2o.dao.WechatAuthDao.insertWechatAuth-Inline
+### The error occurred while setting parameters
+### SQL: INSERT   INTO   tb_wechat_auth(user_id,open_id,create_time)   VALUES   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'abcdefg' for key 'open_id'
+; SQL []; Duplicate entry 'abcdefg' for key 'open_id'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'abcdefg' for key 'open_id'
+2018-07-31 17:05:48.154 [main] ERROR com.imooc.o2o.service1.impl.WechatAuthServiceImpl - insertWechatAuth error:org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'abcdefg' for key 'open_id'
+### The error may involve com.imooc.o2o.dao.WechatAuthDao.insertWechatAuth-Inline
+### The error occurred while setting parameters
+### SQL: INSERT   INTO   tb_wechat_auth(user_id,open_id,create_time)   VALUES   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'abcdefg' for key 'open_id'
+; SQL []; Duplicate entry 'abcdefg' for key 'open_id'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'abcdefg' for key 'open_id'
